@@ -1,0 +1,29 @@
+@media (max-width: 739px) {
+    .c-s-col-full {
+        width: 100% !important;
+    }
+
+    .c-post-horizontal {
+        overflow: hidden;
+    }
+
+    .c-post-content {
+        margin: 16px;
+    }
+
+    .c-post__description {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1023px) {
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
