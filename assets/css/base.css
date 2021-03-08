@@ -135,7 +135,7 @@ html {
     margin-bottom: 40px;
 }
 
-.c-post__image {
+.c-post-horizontal .c-post__image {
     float: left;
     width: 40%;
 }
@@ -144,7 +144,7 @@ html {
     max-width: 100%;
 }
 
-.c-post-content {
+.c-post-horizontal .c-post-content {
     float: left;
     width: calc(60% - 24px);
     margin-left: 24px;
@@ -161,6 +161,14 @@ html {
 .c-post__heading {
     font-weight: 600;
     margin: 8px auto;
+}
+
+.c-post-vertical .c-post__image {
+    text-align: center;
+}
+
+.c-post-vertical .c-post-content {
+    margin-top: 16px;
 }
 
 
