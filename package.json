@@ -1,0 +1,20 @@
+{
+  "name": "frontendmaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chienvu1911/FrontendMaster.git"
+  },
+  "author": "chienvu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chienvu1911/FrontendMaster/issues"
+  },
+  "homepage": "https://github.com/chienvu1911/FrontendMaster#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
