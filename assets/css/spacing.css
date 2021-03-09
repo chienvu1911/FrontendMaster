@@ -2,14 +2,64 @@
     margin-top: 16px;
 }
 
+.c-mr-16 {
+    margin-right: 16px;
+}
+
+.c-mb-16 {
+    margin-bottom: 16px;
+}
+
 .c-ml-16 {
     margin-left: 16px;
+}
+
+.c-mt-8 {
+    margin-top: 8px;
+}
+
+.c-mr-8 {
+    margin-right: 8px;
+}
+
+.c-mb-8 {
+    margin-bottom: 8px;
+}
+
+.c-mr-8 {
+    margin-right: 8px;
 }
 
 .c-pt-16 {
    padding-top: 16px;
 }
 
-.c-pl-16 {
-   padding-left: 16px;
+.c-pr-16 {
+   padding-right: 16px;
 }
+
+.c-pb-16 {
+    padding-bottom: 16px;
+ }
+ 
+ .c-pl-16 {
+    padding-left: 16px;
+ }
+
+ .c-pt-8 {
+    padding-top: 8;
+ }
+ 
+ .c-pr-8 {
+    padding-right: 8;
+ }
+ 
+ .c-pb-8 {
+     padding-bottom: 8;
+  }
+  
+  .c-pl-8 {
+     padding-left: 8;
+  }
+  
+ 
