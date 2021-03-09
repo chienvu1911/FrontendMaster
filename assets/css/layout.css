@@ -6,7 +6,7 @@
 }
 
 .c-header .c-container {
-    margin: inherit;
+    text-align: center;
 }
 
 .c-header ul {
@@ -36,10 +36,11 @@
 .c-col-third {
     float: left;
     width: calc(100%/3);
+    padding: 0 8px;
 }
 
 .c-container {
-    width: 800px;
+    width: 1140px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -49,6 +50,17 @@
     visibility: hidden;
     clear: both;
     display: block;
+}
+
+.c-list-post-horizontal p {
+    color: #777;
+    line-height: 26px;
+    margin: 0 0 20px;
+}
+
+.c-list-post-horizontal a {
+    text-decoration: none;
+    color: #08c;
 }
 
 .c-tag {
