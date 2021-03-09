@@ -1,16 +1,18 @@
 .c-header {
     background-color: #222c3c;
-    padding: 16px 0px;
+    padding: 24px 0px;
     display: flex;
     justify-content: flex-end;
 }
 
 .c-header .c-container {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .c-header ul {
     list-style: none;
+    line-height: 24px;
 }
 
 .c-header ul li {
@@ -21,6 +23,39 @@
 .c-header ul li > a {
     text-decoration: none;
     color: #fff;
+}
+
+.c-header .c-search {
+    display: flex;
+    align-items: center;
+}
+
+.c-header .ti-search {
+    color: #fff;
+    cursor: pointer;
+}
+
+.c-header .c-input-search {
+    display: none;
+    width: 1140px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.c-header .c-input-search .ti-close {
+    color: #fff;
+    cursor: pointer;
+}
+
+.c-header .c-input-search .c-input {
+    border: none;
+    width: 97%;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 3px 20px;
+    padding-left: 0;
 }
 
 .c-row {
@@ -61,6 +96,13 @@
 .c-list-post-horizontal a {
     text-decoration: none;
     color: #08c;
+}
+
+.c-list-post-horizontal .info {
+    display: block;
+    margin: 8px 0 8px;
+    color: #777;
+    font-size: 14px;
 }
 
 .c-tag {
