@@ -12,3 +12,4 @@ document.addEventListener("DOMContentLoaded", function(event){
         document.querySelector(".c-header .c-input-search").style.display = "none";
     })
 })
+
