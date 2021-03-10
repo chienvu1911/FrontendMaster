@@ -1,0 +1,254 @@
+.c-header {
+    background-color: #222c3c;
+    padding: 24px 0px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.c-header .c-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-header ul {
+    list-style: none;
+    line-height: 24px;
+}
+
+.c-header ul li {
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.c-header ul li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.c-header .c-search {
+    display: flex;
+    align-items: center;
+}
+
+.c-header .ti-search {
+    color: #fff;
+    cursor: pointer;
+}
+
+.c-header .c-input-search {
+    display: none;
+    width: 1140px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.c-header .c-input-search .ti-close {
+    color: #fff;
+    cursor: pointer;
+}
+
+.c-header .c-input-search .c-input {
+    border: none;
+    width: 97%;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 3px 20px;
+    padding-left: 0;
+}
+
+.c-mt-header {
+    margin-top: 104px;
+}
+
+.c-row {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.c-col-half {
+    float: left;
+    width: 50%;
+}
+
+.c-col-third {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 8px;
+}
+
+.c-container {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.c-clearfix::after {
+    content: '.';
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+
+.c-list-post-horizontal p {
+    color: #777;
+    line-height: 26px;
+    margin: 0 0 20px;
+}
+
+.c-list-post-horizontal a {
+    text-decoration: none;
+    color: #08c;
+}
+
+.c-list-post-horizontal img {
+    max-height: 200px;
+    width: 100%;
+}
+
+.c-list-post-horizontal .info {
+    display: block;
+    margin: 8px 0 8px;
+    color: #777;
+    font-size: 14px;
+}
+
+.c-list-post-horizontal .c-post-content {
+    padding: 8px 16px;
+}
+
+.c-post-container {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    cursor: pointer;
+}
+
+.c-post-container:hover {
+    transform: translateY(-3px)!important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.c-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.c-heading::after {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #777;
+    content: "";
+    display: block;
+}
+
+.c-tag {
+    background-color: #4BB92F;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.c-post-horizontal {
+    margin-bottom: 40px;
+}
+
+.c-post-horizontal .c-post__image {
+    float: left;
+    width: 40%;
+}
+
+.c-post__image img {
+    max-width: 100%;
+}
+
+.c-post-horizontal .c-post-content {
+    float: left;
+    width: calc(60% - 24px);
+    margin-left: 24px;
+}
+
+.c-post__info {
+    display: flex;
+}
+
+.c-post__time {
+    margin-left: 16px;
+}
+
+.c-post__heading {
+    font-weight: 600;
+    margin: 8px auto;
+}
+
+.c-post-vertical .c-post__image {
+    text-align: center;
+}
+
+.c-post-vertical .c-post-content {
+    margin-top: 16px;
+}
+
+.c-get-in-touch {
+    background-color: #333e50;
+}
+
+.c-get-in-touch .c-container {
+    display: flex;
+    padding: 56px 0px;
+    width: 1140px;
+}
+
+.c-get-in-touch p {
+    font-size: 13px;
+    color: #777;
+    padding-top: 8px;
+    padding-right: 28px;
+}
+
+.c-get-in-touch .c-container > div {
+    width: 25%;
+}
+
+.c-get-in-touch h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.c-social-list {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.c-social-list div {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.c-footer {
+    background-color: #222c3c;
+    padding-bottom: 24px;
+    color: #fff;
+    width: 100%;
+}
+
+.c-footer > p {
+    margin-top: 24px;
+}
