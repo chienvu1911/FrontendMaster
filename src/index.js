@@ -6,6 +6,11 @@ const app = express()
 const port = 3000
 
 app.use(express.static(path.join(__dirname, "public")));
+// form data
+app.use(express.urlencoded());
+// ajax, axios,....
+app.use(express.json());
+
 app.engine('hbs', handlebars({
   extname: '.hbs'
 }));
@@ -15,6 +20,11 @@ app.use(morgan("combined"));
 
 app.get('/', (req, res) => {
   res.render('home');
+})
+
+app.get('/search', (req, res) => {
+  var keywordSearch = req.query.key;
+  res.render('search');
 })
 
 app.listen(port, () => {
