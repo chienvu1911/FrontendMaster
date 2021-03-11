@@ -31,7 +31,7 @@
     "prettier": "^2.2.1"
   },
   "lint-staged": {
-    "src/public/css/app.css --watch": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
+    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
   "husky": {
     "hooks": {
