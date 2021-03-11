@@ -26,7 +26,7 @@ app.engine(
 app.set(
   
   
-  'views', path.join(__dirname, 'resources/views'));
+              'views', path.join(__dirname, 'resources/views'));
 app.use(morgan('combined'));
 
 route(app);
