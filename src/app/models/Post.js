@@ -15,6 +15,9 @@ const Post = new Schema({
         type: Date,
         default: Date.now,
     },
+    slug: {
+        type: String,
+    },
 });
 
 module.exports = mongoose.model('Post', Post);
