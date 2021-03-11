@@ -1,83 +1,83 @@
 .c-overflow-wrap {
-    overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .c-text-trancation {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .c-multiline-trancation {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-    -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
 }
 
 .c-overflow-x {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 .c-overflow-y {
-    overflow-y: auto;
+  overflow-y: auto;
 }
 
 .c-min-width-100 {
-    min-width: 100px;
+  min-width: 100px;
 }
 
 .c-center-flexbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .c-center-absolute--horizontal {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .c-center-absolute--vertical {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .c-center-absolute {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .c-center-block {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .c-center-align {
-    text-align: center;
+  text-align: center;
 }
 
 .c-max-width-100-percent {
-    max-width: 100%;
+  max-width: 100%;
 }
 
- .c-flex {
-     display: flex;
- }
+.c-flex {
+  display: flex;
+}
 
 .c-flex-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .c-cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .c-border-radius-rounded {
-    border-radius: 999px;
+  border-radius: 999px;
 }
