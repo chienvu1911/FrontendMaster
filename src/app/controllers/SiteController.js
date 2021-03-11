@@ -1,13 +1,14 @@
 const Post = require('../models/Post');
-
+const { multipleMongooseToObject } = require('../../util/mongoose');
 class SiteController {
-    home(req, res) {
-        Post.find({}, function (err, posts) {
-            if (!err) {
-                res.json(posts);
-            }
-        });
-        //res.render('home');
+    home(req, res, next) {
+        Post.find({})
+            .then((posts) =>
+                res.render('home', {
+                    posts: multipleMongooseToObject(posts),
+                }),
+            )
+            .catch(next);
     }
 
     search(req, res) {
